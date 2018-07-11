@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anggit.hanacaraka.lagu">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Gundul-Gundul Pacul"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mainke"
+        android:id="@+id/btnPLAY"
+        android:layout_marginTop="102dp"
+        android:layout_below="@+id/textView"
+        android:layout_toLeftOf="@+id/btnPAUSE"
+        android:layout_toStartOf="@+id/btnPAUSE"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mandek"
+        android:id="@+id/btnSTOP"
+        android:layout_alignTop="@+id/btnPAUSE"
+        android:layout_toRightOf="@+id/btnPAUSE"
+        android:layout_toEndOf="@+id/btnPAUSE"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="jeda"
+        android:id="@+id/btnPAUSE"
+        android:layout_alignTop="@+id/btnPLAY"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
